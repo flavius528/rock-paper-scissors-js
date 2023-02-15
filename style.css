@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Merriweather-Bold;
+    src: url('./fonts/Merriweather-Bold.ttf');
+}
+
+@font-face {
+    font-family: Merriweather-Regular;
+    src: url('./fonts/Merriweather-Regular.ttf');
+}
+
+@font-face {
+    font-family: IndieFlower-Regular;
+    src: url('./fonts/IndieFlower-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 2em;
+}
+h1{
+    font-family: Merriweather-Bold, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin: 15px 0;
+}
+.container{
+    display: flex;
+}
+.container .section{
+    width: 350px;
+    margin: 20px 50px;
+}
+.section .info{
+    background: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.info span , .info h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: white;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : rgb(41, 40, 40);
+    height: 220px;
+}
+.show i{
+    opacity: 100%;
+    font-size: 100px;
+    color: orange;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+}
+.selection button{
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background : rgb(41, 40, 40);
+    font-size: 33px;
+    color: orange;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+#demo {
+    font-family: Marriweather-Regular, 'Times New Roman', Times, serif;
+}
+
+#demo2 {
+    font-family: Marriweather-Regular, 'Times New Roman', Times, serif;
+}
+
+.info h3 {
+    font-family: Marriweather-Regular, 'Times New Roman', Times, serif;
+}
+
+#playerScore {
+    font-family: IndieFlower-Regular, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#computerScore {
+    font-family: IndieFlower-Regular, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
